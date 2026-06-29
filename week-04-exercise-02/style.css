@@ -9,24 +9,24 @@ body {
 }
 
 body {
-    font-family: "Times New Roman", serif;
+    font-family: "Courier New", serif;
     line-height: 2;
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding: 32px 0;
+    padding: 24px 0;
 }
 
 main {
     max-width: 1200px;
     width: 90%;
     padding: 16px;
-    border: 1px solid rgba(0, 0, 0, 0.25);
+    border: 3px solid rgba(224, 13, 13, 0.25);
 }
 
 h1 {
     font-weight: normal;
-    font-size: 48px;
+    font-size: 54px;
     line-height: 1em;
     margin-top: 48px;
     margin-bottom: 48px;
@@ -42,20 +42,26 @@ main>p {
 }
 
 .collection-grid {
+    display: Flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
     margin: 48px 0;
 }
 
 .collection-card {
     border: 1px solid rgba(0, 0, 0, 0.25);
-    background-color: #fafafa;
-    padding: 16px;
+    background-color: #5e8dc0;
+    padding: 20px;
+    flex: 1 1 300px;
 }
 
 .collection-card img {
     width: 100%;
     height: auto;
     display: block;
-    border: 1px solid rgba(0, 0, 0, 0.25);
+    border: 3px solid rgba(28, 195, 45, 0.25);
     margin-bottom: 16px;
 }
 
@@ -75,7 +81,15 @@ main>p {
 }
 
 .collection-card .description {
-    font-size: 16px;
+    font-size: 24px;
     margin-bottom: 0;
     line-height: 1.6;
+}
+@media (width >= 480px) {
+    .collection-card {
+        flex basis: 45%}
+}
+@media (width >= 1024px) {
+    .collection-card {
+        flex basis: 30%}
 }
