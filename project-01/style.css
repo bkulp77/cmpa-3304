@@ -1,0 +1,65 @@
+:root {
+    --primary-color: #3498db;
+    --primary-hover-color: #2980b9;
+    --text-color: #430fe1;
+    --background-color: #38abbb;
+    --accent-color: #ed4b39;
+
+    --font-main: 'Helvetica Neue', Arial, sans-serif;
+    --font-size-base: 16px;
+    --font-size-large: 20px;
+    --font-size-heading: 24px;
+
+    --spacing-small: 8px;
+    --spacing-medium: 16px;
+    --spacing-large: 24px;
+
+}
+
+
+body {
+    font-family: var(--font-main);
+    font-size: var(--font-size-base);
+    color: var(--text-color);
+    background-color: var(--background-color);
+    margin: 10px;
+    padding: 20;
+}
+h2 {
+    font-size: var(--font-size-heading);
+    margin-bottom: var(--spacing-medium);
+    color: var(--accent-color);
+    text-align: center;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: var(--spacing-medium);
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+header h1 {
+    font-size: var(--font-size-large);
+    margin: 0;
+    flex-grow: 1;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: var(--spacing-medium);
+}
+
+nav a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: var(--accent-color);
+}
