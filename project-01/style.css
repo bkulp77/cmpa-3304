@@ -64,3 +64,32 @@ nav a {
 nav a:hover {
     color: var(--accent-color);
 }
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: var(--spacing-large);
+}
+
+.about-container p {
+    max-width: 600px;
+    margin-bottom: var(--spacing-medium);
+}
+
+.section-skills {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: var(--spacing-large);
+    text-align: center;
+}
+
+.skills-card {
+    background-color: #fff;
+    color: var(--text-color);
+    padding: var(--spacing-medium);
+    margin: var(--spacing-medium);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
