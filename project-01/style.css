@@ -1,8 +1,8 @@
 :root {
     --primary-color: #7bb184;
-    --primary-hover-color: #2980b9;
+    --primary-hover-color: #ed07bb;
     --text-color: #430fe1;
-    --background-color: #cbf0f5;
+    --background-color: #a4e6ef;
     --accent-color: #ed4b39;
 
     --font-main: 'Helvetica Neue', Arial, sans-serif;
@@ -62,25 +62,27 @@ nav a {
 }
 
 nav a:hover {
-    color: var(--accent-color);
+    color: var(--primary-hover-color);
 }
 
 .about-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    text-align: left;
     margin-top: var(--spacing-large);
+    background-color: var(--background-color);
 }
 
 .about-container p {
     max-width: 600px;
     margin-bottom: var(--spacing-medium);
+
 }
 
 .section-skills {
-    background-color: var(--primary-color);
-    color: #fff;
+    background-color: var(--background-color);
+    color: var(--text-color);
     padding: var(--spacing-large);
     text-align: center;
 }
@@ -92,6 +94,11 @@ nav a:hover {
     margin: var(--spacing-medium);
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.list-container {
+    display: flex;
+    justify-content: center;
 }
 
 .projects-grid {
