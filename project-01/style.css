@@ -74,9 +74,10 @@ nav a:hover {
     padding: var(--spacing-medium);
 }
 .about-container p {
-    max-width: 90%;
+    max-width: 80%;
     margin-bottom: var(--spacing-medium);
     margin: 0 auto;
+    display: flex;
 
 }
 
@@ -99,7 +100,10 @@ nav a:hover {
 .list-container {
     display: flex;
     justify-content: center;
-}
+    max-width: 80%;
+    padding: var(--spacing-medium);
+    margin: 0 auto;
+}   
 
 .projects-grid {
     display: grid;
@@ -111,7 +115,7 @@ nav a:hover {
     list-style: none;
     padding: 0;
     margin: 0;
-    max-width: 70%;
+    max-width: 80%;
     margin: 0 auto;
 
 }
