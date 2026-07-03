@@ -73,10 +73,10 @@ nav a:hover {
     background-color: var(--background-color);
     padding: var(--spacing-medium);
 }
-
 .about-container p {
-    max-width: 70%;
+    max-width: 90%;
     margin-bottom: var(--spacing-medium);
+    margin: 0 auto;
 
 }
 
@@ -107,7 +107,14 @@ nav a:hover {
     gap: var(--spacing-medium);
     margin-top: var(--spacing-large);
 }
+.project-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-width: 70%;
+    margin: 0 auto;
 
+}
 .project-card {
     background-color: #fff;
     color: var(--text-color);
@@ -121,6 +128,7 @@ nav a:hover {
     height: auto;
     margin-top: var(--spacing-medium);
     display: block;
+    margin: 0 auto;
 }
 
 .project-card:hover {
