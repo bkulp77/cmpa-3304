@@ -117,7 +117,7 @@ nav a:hover {
     transition: transform 0.3s ease;
 }
 .project-image {
-    width: 100%;
+    width: 80%;
     height: auto;
     margin-top: var(--spacing-medium);
     display: block;
