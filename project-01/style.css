@@ -3,7 +3,7 @@
     --primary-hover-color: #ed07bb;
     --text-color: #430fe1;
     --background-color: #a4e6ef;
-    --accent-color: #ed4b39;
+    --accent-color: #f31f07;
 
     --font-main: 'Helvetica Neue', Arial, sans-serif;
     --font-size-base: 16px;
@@ -121,6 +121,7 @@ nav a:hover {
     margin: 0 auto;
 
 }
+
 .project-card {
     flex: 1 1 calc(33.333% - var(--spacing-medium));
     min width: 50%
@@ -131,6 +132,12 @@ nav a:hover {
     border: 3px solid rgba(0, 0, 0, 0.1);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+}
+.project-card h3 {
+    font-size: var(--font-size-heading);
+    margin-bottom: var(--spacing-medium );
+    color: var(--accent-color);
+    text-align: center;
 }
 .project-image {
     width: 70%;
