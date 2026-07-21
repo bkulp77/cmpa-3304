@@ -140,7 +140,7 @@ nav a:hover {
     text-align: center;
 }
 .project-image {
-    width: 70%;
+    width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -149,6 +149,7 @@ nav a:hover {
     text-align: center;
     margin-top: var(--spacing-medium);
     margin-bottom: var(--spacing-medium);
+    max-width: 300px;
 }
 .project-card:hover {
     transform: translateY(-5px);
